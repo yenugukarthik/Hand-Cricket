@@ -1,6 +1,8 @@
 # Hand-Cricket
 game code in C that simulates a cricket match with a "super over" scenario.
 Initialization: Initializes various components such as switches, displays, and keys.
+
+
 Functions:
 random(): Generates a pseudo-random number based on a linear congruential generator algorithm.
 switches(): Reads the values from switches and determines which switch is activated.
@@ -9,6 +11,8 @@ clear_display(), clear_screen(), clear_image(): Functions to clear the display o
 write_string(): Writes a string of characters onto the VGA display.
 head() and tail(): Functions to draw the head and tail of a coin flip on the display.
 write_seg(): Writes the score on a segment display.
+
+
 Main Function:
 Initializes the display and prompts the user to choose heads or tails.
 Simulates a coin toss by flipping a virtual coin (drawing heads or tails on the display).
